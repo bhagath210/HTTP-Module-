@@ -1,0 +1,98 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+.header{
+    height: 80px;
+    width: 100%;
+    background-color: rgb(245, 100, 48);
+    color:white;
+}
+h1{
+    padding:20px;
+    padding-left: 110px;
+    font-weight: bold;
+}
+nav{
+    background-color: rgb(67, 9, 82);;
+}
+ul{ 
+    position: relative;
+    left: 80px;
+    width: 1439px;
+    padding: 10px;
+    margin: 0px;
+    height: 50px;
+}
+li{
+    padding-left: 50px;
+    display: inline;
+    color:white;
+    font-size: 20px;
+}
+li:hover{
+    color: lightcoral;
+}
+.banner{
+    background-color: rgb(4, 117, 117);
+    height: 300px;
+}
+.image{
+    z-index: ;
+    position: relative;
+    top: 00px;
+    right:-500px;
+}
+.container{
+    border: 0px solid white;
+    text-align: center;
+}
+.matter{
+    position: relative;
+    top: -200px;
+    width: 950px;
+    color: ghostwhite
+}
+.left{
+    position: absolute;
+    top:40px;
+
+    width:58%;
+    height: 200px;
+    border: 1px solod blue;
+    padding-left: 25px; 
+}
+.right{
+    position: absolute;
+    right:0px;
+    top:30px;
+    width:38%;
+    height: 220px;
+    color: white;
+    background-color: rgb(67, 9, 82);
+}
+.right p{
+    padding-top: 25px;
+    padding-left: 4px;
+}
+.container-fluid{
+    position: relative;
+    border: 1px solod red;
+    padding: 0px;
+    margin: 0px;
+    height:40px;
+}
+footer{
+    position: relative;
+    padding: 10px;
+    top: 233px;
+    height: 50px;
+    color: white;
+    width: 100%;
+    background-color: rgb(67, 9, 82);
+    text-align: center;
+}
